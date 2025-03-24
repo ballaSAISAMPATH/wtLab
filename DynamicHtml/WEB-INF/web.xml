@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>DynamicHtml</servlet-name>
+        <servlet-class>DynamicHtml</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DynamicHtml</servlet-name>
+        <url-pattern>/DynamicHtml</url-pattern>
+    </servlet-mapping>
+</web-app>

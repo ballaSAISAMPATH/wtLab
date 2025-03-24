@@ -1,0 +1,19 @@
+<web-app>
+    
+    <context-param>
+        <param-name>student2</param-name>
+        <param-value>ball</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>InitContext</servlet-name>
+        <servlet-class>InitContext</servlet-class>
+    <init-param>
+        <param-name>student1</param-name>
+        <param-value>apple</param-value>
+    </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InitContext</servlet-name>
+        <url-pattern>/InitContext</url-pattern>
+    </servlet-mapping>
+</web-app>

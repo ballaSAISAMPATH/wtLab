@@ -1,0 +1,26 @@
+<web-app>
+
+
+    <context-param>
+        <param-name>companyName</param-name>
+        <param-value>Varshi Techs</param-value>
+    </context-param>
+
+
+    <servlet>
+        <servlet-name>ParamServlet</servlet-name>
+        <servlet-class>ParamServlet</servlet-class>
+        
+        <init-param>
+            <param-name>developer</param-name>
+            <param-value>Varshini</param-value>
+        </init-param>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>ParamServlet</servlet-name>
+        <url-pattern>/ParamServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
